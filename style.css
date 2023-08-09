@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: pink;
+}
+
+#mainbox {
+    background: whitesmoke;
+    display: flex;
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    top: 150px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+span {
+    background: rgb(95, 60, 250);
+    color: antiquewhite;
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    border-radius: 20px;
+
+}
+
+
+.head {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 140px;
+
+}
+
+.score-body {
+    background: rgb(70, 55, 204);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    display: flex;
+    position: absolute;
+    top: 110px;
+    left: 115px;
+}
+
+.score {
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+div,
+over {
+    color: antiquewhite;
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+.remark {
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 160px;
+}
+
+.comment1 {
+    color: antiquewhite;
+    font-family: arial narrow;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 90px;
+
+}
+
+.comment2 {
+    color: antiquewhite;
+    font-family: arial narrow;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 100px;
+}
+
+.comment3 {
+    color: antiquewhite;
+    font-family: arial narrow;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    top: 410px;
+    left: 150px;
+}
+
+.summary {
+    color: #452700;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 190px;
+    left: 610px;
+}
+
+.rea {
+    color: rgb(210, 94, 133);
+    background: rgb(232, 226, 228);
+    font-size: 20px;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    position: absolute;
+    flex-basis: inline;
+    top: 240px;
+    left: 610px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.rea-mark {
+    color: #452700;
+    position: absolute;
+    top: 260px;
+    left: 850px;
+    font-size: 18px;
+}
+
+.mem {
+    color: orange;
+    background: rgb(227, 223, 216);
+    font-size: 20px;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    position: absolute;
+    flex-basis: inline;
+    top: 315px;
+    left: 610px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.mem-mark {
+    color: #452700;
+    position: absolute;
+    top: 335px;
+    left: 850px;
+    font-size: 18px;
+}
+
+.ver {
+    color: rgb(56, 218, 56);
+    background: rgb(221, 234, 221);
+    font-size: 20px;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    position: absolute;
+    flex-basis: inline;
+    top: 390px;
+    left: 610px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.ver-mark {
+    color: #452700;
+    position: absolute;
+    top: 410px;
+    left: 850px;
+    font-size: 18px;
+}
+
+.vis {
+    color: rgb(51, 65, 214);
+    background: rgb(226, 233, 236);
+    font-size: 20px;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    position: absolute;
+    flex-basis: inline;
+    top: 465px;
+    left: 610px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.vis-mark {
+    color: #452700;
+    position: absolute;
+    top: 480px;
+    left: 850px;
+    font-size: 18px;
+}
+
+.con {
+    background: #060504;
+    font-size: 20px;
+    width: 18vw;
+    height: 6vh;
+    display: flex;
+    position: absolute;
+    flex-basis: inline;
+    top: 550px;
+    left: 630px;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.nex {
+    font-size: 20px;
+    position: absolute;
+    top: 565px;
+    left: 740px;
+}
